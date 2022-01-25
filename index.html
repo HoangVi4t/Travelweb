@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid wide">
+                <nav class="nav">
+                    <a href="#" class="header__logo"><span>T</span>RAVEL</a>
+                    <ul>
+                        <li>
+                            <a href="">Home</a>
+                        </li>
+                        <li>
+                            <a href="">Book</a>
+                        </li>
+                        <li>
+                            <a href="">Packages</a>
+                        </li>
+                        <li>
+                            <a href="">Services</a>
+                        </li>
+                        <li>
+                            <a href="">Gallery</a>
+                        </li>
+                        <li>
+                            <a href="">Review</a>
+                        </li>
+                        <li>
+                            <a href="">Contact</a>
+                        </li>
+                    </ul>
+
+                    <div class="icons">
+                        <i class="fas fa-user" id="login-btn"></i>
+                        <i class="fas fa-search" id="search-btn"></i>
+                    </div>
+                    <!--Begin Form Search -->
+                    <form action="" class="search-bar-container">
+                        <input type="search" id="search-bar" placeholder="Tìm Kiếm...">
+                        <label for="search-bar" class="fas fa-search"></label>
+                    </form>
+                    <!--End Form Search -->
+                </nav>
+            </div>
+        </header>
+        <!-- login form container  -->
+
+<div class="login-form-container">
+    
+    
+    <form action="">
+        <i class="fas fa-times" id="form-close"></i>
+        <h3>login</h3>
+        <input type="email" class="box" placeholder="enter your email">
+        <input type="password" class="box" placeholder="enter your password">
+        <input type="submit" value="login now" class="btn">
+        <input type="checkbox" id="agree">
+        <label for="remember">Agree</label>
+        <p>forget password? <a href="#">click here</a></p>
+        <p>don't have and account? <a href="#">register now</a></p>
+    </form>
+</div>
+
+<!-- home section starts  -->
+<section class="home" id="home">
+
+    <div class="content">
+        <h3>adventure is worthwhile</h3>
+        <p>dicover new places with us, adventure awaits</p>
+    </div>
+
+    <div class="video-container">
+        <video src="./assets/css/img/Lake - 91562.mp4" id="video-slider" loop autoplay muted></video>
+
+    </div>
+
+</section>
+<!-- home section ends -->
+
+<!-- book section starts  -->
+
+<section class="book" id="book">
+    <div class="grid wide">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+    
+        <div class="row">
+            <div class="col l-6">
+                <div class="image">
+                    <img src="./assets/img/book-img.svg" alt="">
+                </div>
+            </div>
+            
+            <div class="col l-6">
+                <form action="#">
+                    <div class="inputBox">
+                        <h3>where to</h3>
+                        <input type="text" placeholder="place name">
+                    </div>
+                    <div class="inputBox">
+                        <h3>how many</h3>
+                        <input type="number" placeholder="number of guests">
+                    </div>
+                    <div class="inputBox">
+                        <h3>arrivals</h3>
+                        <input type="date">
+                    </div>
+                    <div class="inputBox">
+                        <h3>leaving</h3>
+                        <input type="date">
+                    </div>
+                    <input type="submit" class="btn" value="book now">
+                </form>
+            </div>
+    
+        </div>
+    </div>
+</section>
+<!-- book section ends -->
+
+<!-- packages section starts  -->
+
+<section class="packages" id="packages">
+
+    <h1 class="heading">
+        <span>p</span>
+        <span>a</span>
+        <span>c</span>
+        <span>k</span>
+        <span>a</span>
+        <span>g</span>
+        <span>e</span>
+        <span>s</span>
+    </h1>
+
+    <div class="grid wide">
+        <div class="row">
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> mumbai </h3>
+                    <p>Mumbai has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> hawaii </h3>
+                    <p>Hawaii has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    
+    
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> sydney </h3>
+                    <p>Sydney has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> paris </h3>
+                    <p>Paris has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> tokyo </h3>
+                    <p>Tokyo has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+        
+    
+        <div class="col l-4">
+            <div class="box">
+                <div class="box__img">
+                    <img src="./assets/img/p-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3> <i class="fas fa-map-marker-alt"></i> eypt </h3>
+                    <p>Eypt has many attractions in and around the city for visitors of every age and type</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00 <span>$120.00</span> </div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+
+      </div>
+    </div>
+</section>
+<!-- packages section ends -->
+
+
+<!-- review section starts  -->
+
+<section class="review" id="review">
+    
+    <h1 class="heading">
+        <span>r</span>
+        <span>e</span>
+        <span>v</span>
+        <span>i</span>
+        <span>e</span>
+        <span>w</span>
+    </h1>
+    
+    <div class="grid wide">
+        <div class="row">
+            <div class="owl-carousel" id="slider">
+                    <div class="review__single ">
+                        <div class="review__img">
+                            <img src="./assets/img/pic1.png" alt="">
+                        </div>
+                        <div class="review__comment">
+                            <h3>john deo</h3>
+                            <p>A purpose is the eternal condition for success.
+                                Every former smoker can tell you just how hard it is to stop smoking
+                                cigarettes. However.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__single ">
+                        <div class="review__img">
+                            <img src="./assets/img/pic2.png" alt="">
+                        </div>
+                        <div class="review__comment">
+                            <h3>john deo</h3>
+                            <p>A purpose is the eternal condition for success.
+                                Every former smoker can tell you just how hard it is to stop smoking
+                                cigarettes. However.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__single ">
+                        <div class="review__img">
+                            <img src="./assets/img/pic3.png" alt="">
+                        </div>
+                        <div class="review__comment">
+                            <h3>john deo</h3>
+                            <p>A purpose is the eternal condition for success.
+                                Every former smoker can tell you just how hard it is to stop smoking
+                                cigarettes. However.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="review__single ">
+                        <div class="review__img">
+                            <img src="./assets/img/pic4.png" alt="">
+                        </div>
+                        <div class="review__comment">
+                            <h3>john deo</h3>
+                            <p>A purpose is the eternal condition for success.
+                                Every former smoker can tell you just how hard it is to stop smoking
+                                cigarettes. However.</p>
+                            <div class="stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- review section ends -->
+
+<!-- contact section starts  -->
+
+<section class="contact" id="contact">
+    
+    <h1 class="heading">
+        <span>c</span>
+        <span>o</span>
+        <span>n</span>
+        <span>t</span>
+        <span>a</span>
+        <span>c</span>
+        <span>t</span>
+    </h1>
+
+    <div class="grid wide">
+        <div class="row pt-bottom">
+            <div class="col l-6">
+                <form action="">
+                    <div class="inputBox">
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Email">
+                    </div>
+                    <div class="inputBox">
+                        <input type="number" placeholder="Number">
+                    </div>
+                    <textarea placeholder="Message" name="" id="" cols="30" rows="10"></textarea>
+                    <input type="submit" class="btn" value="Send message">
+                </form>
+            </div>
+            
+            <div class="col l-6">
+                <div class="image">
+                    <img src="./assets/img/contact-img.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- contact section ends -->
+
+<!-- brand section  -->
+<section class="brand-container bran-pt">
+    <div class="grid wide">
+        <div class="row">
+            <div class=" owl-carousel not-dots" id="brand-slider">
+                    <div class="brand__single">
+                        <img src="./assets/img/pages-1.png" alt="">
+                    </div>
+                    <div class="brand__single">
+                        <img src="./assets/img/pages-2.png" alt="">
+                    </div>
+                    <div class="brand__single">
+                        <img src="./assets/img/pages-3.png" alt="">
+                    </div>
+                    <div class="brand__single">
+                        <img src="./assets/img/pages-4.png" alt="">
+                    </div>
+                    <div class="brand__single">
+                        <img src="./assets/img/pages-5.png" alt="">
+                    </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+
+<!-- footer section  -->
+
+<section class="footer">
+
+    <div class="grid wide">
+        <div class="row">
+            <div class="footer__wrap">
+                <div class="col l-4">
+                    <div class="footer__box">
+                        <h3>about us</h3>
+                        <p>We have tested a number of registry fix and clean utilities
+                            and present our top 3 list on our site for your convenience.</p>
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="footer__box ft-ct">
+                        <h3>branch locations</h3>
+                        <a href="#">india</a>
+                        <a href="#">USA</a>
+                        <a href="#">japan</a>
+                        <a href="#">france</a>
+                    </div>
+                </div>
+                <div class="col l-4">
+                    <div class="footer__box">
+                        <h3>follow us</h3>
+                        <a href="#">facebook <i class="fab fa-facebook"></i></a>
+                        <a href="#">instagram <i class="fab fa-instagram"></i></a>
+                        <a href="#">twitter <i class="fab fa-twitter"></i></a>
+                        <a href="#">linkedin <i class="fab fa-linkedin"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+</div>
+    <script src="./test.js"></script>
+</body>
+</html>
